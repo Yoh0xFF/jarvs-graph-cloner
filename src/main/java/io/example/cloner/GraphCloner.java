@@ -57,7 +57,7 @@ public class GraphCloner {
         }
 
         // Traverse sub graph using the BFS algorithm from the provided source and clone it
-        Queue<Long> queue = new ArrayDeque<>();
+        Queue<Long> queue = new LinkedList<>();
         queue.add(sourceId);
         cloneEntity(sourceId, true);
 
