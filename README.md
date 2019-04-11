@@ -32,7 +32,7 @@ These inputs should be taken in on the command line as follows:
 To build this program you will need to install **Java SE Development Kit (version 8+)** 
 and **Maven Build System (version 3+)** on your local machine.
 
-To build, enter the project's root directory, and run following command:
+To build, enter the project's root directory, and run the following command:
 ```
 mvn clean install
 ```
