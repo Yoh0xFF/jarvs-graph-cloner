@@ -1,0 +1,132 @@
+{
+    "entities": [
+        {
+            "entity_id": 1,
+            "name": "Entity1"
+        },
+        {
+            "entity_id": 2,
+            "name": "Entity2"
+        },
+        {
+            "description": "More details about entity 3",
+            "entity_id": 3,
+            "name": "Entity3"
+        },
+        {
+            "entity_id": 4,
+            "name": "Entity4"
+        },
+        {
+            "description": "More details about entity 5",
+            "entity_id": 5,
+            "name": "Entity5"
+        },
+        {
+            "description": "More details about entity 6",
+            "entity_id": 6,
+            "name": "Entity6"
+        },
+        {
+            "entity_id": 7,
+            "name": "Entity4"
+        },
+        {
+            "description": "More details about entity 6",
+            "entity_id": 8,
+            "name": "Entity6"
+        },
+        {
+            "description": "More details about entity 5",
+            "entity_id": 9,
+            "name": "Entity5"
+        },
+        {
+            "description": "More details about entity 3",
+            "entity_id": 10,
+            "name": "Entity3"
+        },
+        {
+            "entity_id": 11,
+            "name": "Entity1"
+        },
+        {
+            "entity_id": 12,
+            "name": "Entity2"
+        }
+    ],
+    "links": [
+        {
+            "from": 1,
+            "to": 2
+        },
+        {
+            "from": 2,
+            "to": 3
+        },
+        {
+            "from": 3,
+            "to": 1
+        },
+        {
+            "from": 2,
+            "to": 4
+        },
+        {
+            "from": 3,
+            "to": 4
+        },
+        {
+            "from": 4,
+            "to": 6
+        },
+        {
+            "from": 6,
+            "to": 5
+        },
+        {
+            "from": 6,
+            "to": 3
+        },
+        {
+            "from": 2,
+            "to": 7
+        },
+        {
+            "from": 3,
+            "to": 7
+        },
+        {
+            "from": 7,
+            "to": 8
+        },
+        {
+            "from": 8,
+            "to": 9
+        },
+        {
+            "from": 8,
+            "to": 10
+        },
+        {
+            "from": 10,
+            "to": 7
+        },
+        {
+            "from": 10,
+            "to": 11
+        },
+        {
+            "from": 11,
+            "to": 12
+        },
+        {
+            "from": 12,
+            "to": 10
+        },
+        {
+            "from": 12,
+            "to": 7
+        }
+    ]
+}

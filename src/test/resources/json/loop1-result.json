@@ -1,0 +1,90 @@
+{
+    "entities": [
+        {
+            "entity_id": 1,
+            "name": "Entity1"
+        },
+        {
+            "entity_id": 2,
+            "name": "Entity2"
+        },
+        {
+            "entity_id": 3,
+            "name": "Entity3",
+            "description": "More details about entity 3"
+        },
+        {
+            "entity_id": 4,
+            "name": "Entity4"
+        },
+        {
+            "entity_id": 5,
+            "name": "Entity5",
+            "description": "More details about entity 5"
+        },
+        {
+            "entity_id": 6,
+            "name": "Entity3",
+            "description": "More details about entity 3"
+        },
+        {
+            "entity_id": 7,
+            "name": "Entity4"
+        },
+        {
+            "entity_id": 8,
+            "name": "Entity5",
+            "description": "More details about entity 5"
+        }
+    ],
+    "links": [
+        {
+            "from": 1,
+            "to": 2
+        },
+        {
+            "from": 1,
+            "to": 3
+        },
+        {
+            "from": 2,
+            "to": 3
+        },
+        {
+            "from": 3,
+            "to": 4
+        },
+        {
+            "from": 4,
+            "to": 5
+        },
+        {
+            "from": 5,
+            "to": 3
+        },
+        {
+            "from": 1,
+            "to": 6
+        },
+        {
+            "from": 2,
+            "to": 6
+        },
+        {
+            "from": 5,
+            "to": 6
+        },
+        {
+            "from": 6,
+            "to": 7
+        },
+        {
+            "from": 7,
+            "to": 8
+        },
+        {
+            "from": 8,
+            "to": 6
+        }
+    ]
+}
